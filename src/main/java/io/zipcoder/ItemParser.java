@@ -25,6 +25,7 @@ public class ItemParser {
             }
             catch (ItemParseException e){
                 errorCounter++;
+                System.err.println("Error not valid");
             }
 
         }
